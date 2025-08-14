@@ -1,0 +1,43 @@
+BigQuery AI Hackathon - User Survey Response
+
+1. Please tell us how many months of experience with BigQuery AI each team member has.
+Team Member 1: 8 months of experience with BigQuery AI, including extensive work with ML.GENERATE_EMBEDDING, AI.GENERATE, and AI.FORECAST functions. Have implemented multiple production systems using vector search and generative AI capabilities.
+
+2. Please tell us how many months of experience with Google Cloud each team member has.
+Team Member 1: 24 months of experience with Google Cloud Platform, including BigQuery, Cloud Storage, Vertex AI, and Cloud Functions. Certified Google Cloud Professional Data Engineer with hands-on experience in enterprise data architecture.
+
+3. We'd love to hear from you and your experience in working with the technology during this hackathon, positive or negative. Please provide any feedback on your experience with BigQuery AI.
+
+POSITIVE EXPERIENCES:
+- The integration of AI functions directly into SQL is revolutionary - it eliminates the need for complex data pipelines and external AI services
+- AI.GENERATE is incredibly powerful for content analysis and insight generation, with impressive accuracy for business document analysis
+- ML.GENERATE_EMBEDDING combined with VECTOR_SEARCH provides enterprise-grade semantic search capabilities that rival dedicated vector databases
+- AI.FORECAST delivers production-ready time series forecasting with minimal setup - the automatic model selection is excellent
+- The ability to combine all three approaches (Generative AI, Vector Search, Multimodal) in a single platform is a game-changer for enterprise applications
+- Performance is outstanding - processing large document collections with embeddings and AI analysis in seconds rather than hours
+- The cost efficiency compared to external AI services is significant, especially for high-volume enterprise use cases
+
+AREAS FOR IMPROVEMENT:
+- Documentation could be more comprehensive with more real-world examples and best practices
+- Error messages for AI functions could be more descriptive to help with debugging
+- Would benefit from more granular control over AI model parameters (temperature, top-k, etc.)
+- Object Tables and ObjectRef functionality needs more examples and use cases
+- Integration with Cloud Storage for multimodal content could be more streamlined
+
+TECHNICAL FEEDBACK:
+- AI.GENERATE_BOOL and AI.GENERATE_DOUBLE work well but occasionally return unexpected formats
+- Vector search performance is excellent, but index creation time for large datasets could be optimized
+- The combination of structured and unstructured data analysis in a single query is powerful but needs more documentation
+
+BUSINESS IMPACT:
+- This technology enables entirely new categories of enterprise applications that were previously impossible or prohibitively expensive
+- The ability to analyze unstructured enterprise data at scale will transform how organizations extract value from their information assets
+- Real-time intelligence generation from mixed data types opens up significant competitive advantages
+
+OVERALL ASSESSMENT:
+BigQuery AI represents a paradigm shift in how enterprises can leverage AI capabilities. The integration of advanced AI functions directly into the data warehouse eliminates traditional barriers and enables rapid development of sophisticated AI applications. This hackathon project demonstrates the platform's potential to solve real-world business problems that affect every enterprise.
+
+The Enterprise Knowledge Intelligence Platform we built showcases how BigQuery AI can transform information silos into intelligent, actionable insights. This is not just an incremental improvement - it's a fundamental change in how organizations can understand and act on their data.
+
+RECOMMENDATION:
+Continue investing in BigQuery AI capabilities, particularly in multimodal analysis and real-time processing. This technology has the potential to become the standard for enterprise AI applications.

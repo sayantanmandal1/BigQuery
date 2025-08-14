@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-🚀 Enterprise Knowledge Intelligence Platform - Working Demo
+Enterprise Knowledge Intelligence Platform - Working Demo
 
 This script demonstrates all BigQuery AI capabilities with simulated results.
 For full execution, connect to a BigQuery project with AI capabilities enabled.
@@ -11,20 +12,27 @@ import numpy as np
 import json
 from datetime import datetime, timedelta
 import warnings
+import sys
+import os
+
+# Fix Windows Unicode issues
+if sys.platform.startswith('win'):
+    os.environ['PYTHONIOENCODING'] = 'utf-8'
+
 warnings.filterwarnings('ignore')
 
 def main():
-    print("🚀 Enterprise Knowledge Intelligence Platform Demo")
+    print("Enterprise Knowledge Intelligence Platform Demo")
     print("=" * 60)
-    print(f"⏰ Started: {datetime.now()}")
-    print("📝 Demonstrating ALL THREE BigQuery AI approaches:")
-    print("   🧠 Generative AI (AI.GENERATE, AI.FORECAST, AI.GENERATE_BOOL)")
-    print("   🕵️ Vector Search (ML.GENERATE_EMBEDDING, VECTOR_SEARCH)")
-    print("   🖼️ Multimodal (Object Tables, ObjectRef)")
+    print(f"Started: {datetime.now()}")
+    print("Demonstrating ALL THREE BigQuery AI approaches:")
+    print("   - Generative AI (AI.GENERATE, AI.FORECAST, AI.GENERATE_BOOL)")
+    print("   - Vector Search (ML.GENERATE_EMBEDDING, VECTOR_SEARCH)")
+    print("   - Multimodal (Object Tables, ObjectRef)")
     print("=" * 60)
     
     # Step 1: Create sample enterprise data
-    print("\n🏗️ Step 1: Enterprise Dataset Creation")
+    print("\nStep 1: Enterprise Dataset Creation")
     print("-" * 40)
     
     sample_documents = [

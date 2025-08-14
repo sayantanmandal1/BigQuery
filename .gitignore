@@ -13,7 +13,7 @@ config.yaml
 config.yml
 secrets.yaml
 secrets.yml
-
+.kiro
 # Python
 __pycache__/
 *.py[cod]
